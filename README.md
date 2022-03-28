@@ -47,6 +47,7 @@ https://github.com/phanker/jd-seckill-maotai
 ## 使用教程  
 #### 1.使用cookies登录
 若使用cookies登录，直接填写cookies信息即可，可以跳过步骤2
+当cookies 值为空会自动调用webdriver进行登录
 #### 2. 配置webdriver
 下载一个Chromedriver放到chrome安装路径，或者gecodriver放到firefox的安装路径，然后把这个路径配置到环境变量里，在Login函数里修改对应的浏览器登录，在浏览器中完成人机验证操作即可，浏览器会自动关闭，然后将cookies信息保存下来，后续会默认使用cookies登录。后面若cookies失效，也可以使用这种办法更新cookies信息
 

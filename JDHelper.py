@@ -134,8 +134,8 @@ class JDHelper(object):
         log.info('登录成功')
         # for i in range(3):
         self.timers.start()
-        self.get_seckill_url()
-        self.toCart()
+        # self.get_seckill_url()
+        # self.toCart()
         self.checkcartall()
         self.checkout()
         self.submit_order()
